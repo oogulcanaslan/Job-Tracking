@@ -1,0 +1,59 @@
+
+.addItemsContainer{
+    display:flex;
+    flex-direction: column;
+    margin:20px;
+   
+    .categoryText{
+        font-weight: bold;
+        font-size:20px;
+
+    }
+
+    .createContainer{
+        margin-top:20px;
+        display:flex;
+        justify-content:space-around;
+        font-size: 15px;
+        
+
+        .jobNameContainer{
+flex:9;
+margin-right: 10px;
+
+        }
+        .jobPriorityContainer{
+            flex:2;
+            margin-right: 10px;
+        }
+        .createButton{
+            display:flex;
+            justify-content: center;
+            flex:1;
+            height:40px;
+            align-self: flex-end;
+            
+        }
+
+        
+     
+
+    }
+}
+
+
+
+@media (max-width: 860px) {
+    .createContainer {
+      flex-direction: column;
+      
+    }
+    .createButton{
+        margin-top: 20px;
+        width:100%;
+       
+    }
+    .jobPriorityContainer{
+        margin-top: 20px;
+    }
+  }

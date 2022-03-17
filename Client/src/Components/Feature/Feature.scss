@@ -1,0 +1,91 @@
+
+.filterContainer{
+    background-color: rgb(155, 183, 236);
+   
+    margin-right:20px;
+    margin-left:20px;
+    
+  
+
+    .formContainer{
+        margin-top: 20px;
+        font-size: 15px;
+         width:auto;
+         height:60px;
+         align-items:center;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         
+
+      
+        .filterSelect{
+            
+            margin-right: 10px;
+        }
+.searchContainer{
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items:center;
+    width: 80%;
+    
+   
+
+   .searchIcon{
+       width:50px;
+       padding:8px;
+       border-radius: 15px 0px 0px 15px;
+       height:36px;
+       background-color:white
+   }
+    
+    
+            }
+    }
+}
+
+.JobListText{
+    margin-top: 60px;
+    padding-bottom: 20px;
+    gap:50px;
+    font-weight: bold;
+    font-size:20px;
+    background-color:white;
+  }
+
+ 
+
+@media (max-width: 860px) {
+  
+  
+    
+   
+  
+  }
+
+  .tableHeadContainer{
+    background-color:rgb(155, 183, 236);
+    height:50px;
+    display:flex;
+   gap:100px;
+   align-items: center;
+    
+    
+  
+  }
+  
+  .tableColContainer1{
+    margin-left:10px;
+    flex:6;
+  
+  }
+  .tableColContainer2{
+    justify-content: flex-end;
+  
+  }
+  .tableColContainer3{
+   justify-content: flex-end;
+   margin-right: 10px;
+  
+  }
